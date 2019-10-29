@@ -1,0 +1,21 @@
+h2{
+	color: white;
+	font-family: "Hurme Geometric Sans No.4";
+	font-size: 40px;
+}
+
+.cotizacion{
+	width: 390px;
+}
+
+p{
+	font-family: "Cronos Pro";
+	color: white;
+}
+
+h1, h3{
+	font-family: "Hurme Geometric Sans No.4";
+	color: #FF6319;
+	font-size: 75px;
+	float: right;
+}
