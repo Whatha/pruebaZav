@@ -1,21 +1,204 @@
+h2, input{
+	font-family: "Hurme Geometric Sans No.4";
+}
+
 h2{
 	color: white;
-	font-family: "Hurme Geometric Sans No.4";
 	font-size: 40px;
+	line-height: 20px;
 }
 
 .cotizacion{
+	margin-top: 100px;
 	width: 390px;
 }
 
-p{
+h4, h3{
 	font-family: "Cronos Pro";
 	color: white;
+	font-size: 35px;
+	font-weight: bold;
 }
 
-h1, h3{
+h1{
 	font-family: "Hurme Geometric Sans No.4";
 	color: #FF6319;
-	font-size: 75px;
-	float: right;
+	font-size: 90px;
+	text-align: right;
+	margin-top: -65px;
+	margin-right: 20px;
+	font-weight: 900;
+}
+
+h1 span:first-child{
+	font-size: 48px;
+	margin-right: 0;
+}
+
+.asterisco{
+	font-family: "Cronos Pro";
+	font-weight: 500;
+}
+h4{
+	margin-bottom: 1rem;
+}
+h3{
+	font-size: 40px;
+	margin-top: -30px;
+}
+p, label{
+	font-family: "Roboto";
+}
+.terminos{
+	color: white;
+	text-align: right;
+	margin-top: -40px;
+	margin-right: 30px;
+}
+
+.naranja{
+	color: #FF6319;
+}
+
+.terminos a{
+	color: #4BACD5;
+	text-decoration: underline;
+}
+
+.card{
+	width: 390px;
+	height: 517px;
+	background: #fff;
+	box-shadow: 0px 3px 6px #00000029;
+	border-radius: 11px;
+	opacity: 1;
+	margin-top: 30px;
+	padding: 15px;
+}
+
+.card h2{
+	color: #002395;
+	font-size: 28px;
+	line-height: 1;
+}
+
+.card h2 span{
+	text-transform: uppercase;
+}
+
+.card p{
+	color: #868484;
+	margin-top: -10px;
+	font-size: 14px;
+	margin-bottom: 1px;
+}
+
+label{
+	color: #888888;
+	font-size: 16px;
+	margin-bottom: 0;
+}
+
+input{
+	width: 100%;
+	margin-top: 0;
+	color: #00345A;
+	border: none;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.texto-check{
+	color: #454545;
+	font-size: 14px;
+	font-weight: 500;
+	padding-left: 35px;
+	margin-top: -5px;
+}
+
+.check a{
+	color: #072395;
+	text-decoration: underline;
+}
+
+input[type="checkbox"]{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 0;
+}
+
+.button{
+	margin-top: 20px;
+	width: 100%;
+	display: inline-flex;
+	position: relative;
+}
+
+.button img{
+	width: 38px;
+height: 43px;
+position: absolute;
+    top: 28px;
+    right: 87px;
+
+}
+
+.card input[type="submit"]{
+	width: 205px;
+	height: 55px;
+	background: linear-gradient(to bottom, rgba(255,99,25,1) 0%, rgba(227,84,16,1) 100%);
+	box-shadow: 3px 3px 3px #00000062;
+	border-radius: 55px;
+	opacity: 1;
+	margin: 0 auto;
+	margin-top: 20px;
+	color: white;
+	font-size: 20px;
+	font-family: "Cronos Pro";
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  background-color: transparent;
+  border: 3px solid #454545;
+  border-radius: 3px;
+}
+
+.check:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.check input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.check .checkmark:after {
+  left: 9px;
+  top: -5px;
+  width: 10px;
+  height: 20px;
+  border: solid #FF6319;
+  border-width: 0 4px 4px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
