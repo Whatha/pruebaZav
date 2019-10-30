@@ -20,6 +20,10 @@ export class FirestoreService {
   public getCats() {
     return this.firestore.collection('cats').snapshotChanges();
   }
+
+   public getDientes() {
+    return this.firestore.collection('dientes').snapshotChanges();
+  }
   //Actualiza un gato
   public updateCat(documentId: string, data: any) {
     return this.firestore.collection('cats').doc(documentId).set(data);

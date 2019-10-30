@@ -13,13 +13,17 @@ import { environment } from '../environments/environment';
 import { CotizacionComponent } from './cotizacion/cotizacion.component';
 import { CatsComponent } from './cats/cats.component';
 import { BannerComponent } from './banner/banner.component';
+import { InicioComponent } from './inicio/inicio.component';
+import { ThanksComponent } from './thanks/thanks.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CotizacionComponent,
     CatsComponent,
-    BannerComponent
+    BannerComponent,
+    InicioComponent,
+    ThanksComponent
   ],
   imports: [
     BrowserModule,

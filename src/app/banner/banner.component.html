@@ -27,5 +27,20 @@
 		<div class="titulo">
 		<p><span>* Esta es una imagen de referencia.</span> Consultanos para saber como podrías verte.</p>
 		</div>
+	
 	</div>
+
+		<!-- dientes -->
+      <div class="tooth row">
+        <div class="col-md-4" *ngFor="let diente of dientes">
+          <div class="imagen">
+          	<img class="borde" src="../../assets/dientes-borde.svg" alt="">
+            <img class="img-diente" [src]="diente.data.imagen" [alt]="diente.data.titulo">
+          </div>
+          <div class="texto ">
+            <div class="text">
+              <p>{{diente.data.texto}}</p>
+            </div>
+          </div>
+        </div>
 </div>

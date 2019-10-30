@@ -1,0 +1,37 @@
+ 
+    .background{
+    min-width: 100%;
+    min-height: 100%;
+    margin-top: 76px;
+  background: url("../../assets/background.svg") 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+  z-index: -1;
+    }
+
+  #contenido{
+    padding-top: 76px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .servicios{
+    margin-top: 250px;
+    margin-bottom: 100px;
+  }
+
+  .servicios h1{
+     font-family: "Hurme Geometric Sans No.4";
+    color: #002395;
+     font-size: 36px;
+  }
+
+  .servicios ul {
+    list-style-image: url("../../assets/tick.svg");
+  }
+
+  .servicios ul li{
+    font-family: "Roboto";
+    font-size: 15px;
+    line-height: 42px;
+  }
