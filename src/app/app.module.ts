@@ -12,12 +12,14 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 import { environment } from '../environments/environment';
 import { CotizacionComponent } from './cotizacion/cotizacion.component';
 import { CatsComponent } from './cats/cats.component';
+import { BannerComponent } from './banner/banner.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CotizacionComponent,
-    CatsComponent
+    CatsComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
