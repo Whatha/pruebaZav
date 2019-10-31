@@ -23,7 +23,8 @@ import { ThanksComponent } from './thanks/thanks.component';
     CatsComponent,
     BannerComponent,
     InicioComponent,
-    ThanksComponent
+    ThanksComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -32,9 +33,11 @@ import { ThanksComponent } from './thanks/thanks.component';
 
       //Firebase Modulos
     AngularFirestoreModule, 
-    AngularFireStorageModule
+    AngularFireStorageModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+

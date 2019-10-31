@@ -13,7 +13,3 @@ export class ThanksComponent implements OnInit {
   }
 
 }
-/*
-            var v = document.getElementById("footer"); 
-            v.classList.add("pabajo"); */
-        

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FirestoreService } from '../services/firestore/firestore.service';
+
 @Component({
   selector: 'app-banner',
   templateUrl: './banner.component.html',

@@ -1,57 +1,21 @@
-  <style>
-
-
-
-  .toolbar{
-    width: 100%;
-    height: 76px;
-    background: white;
-    position: fixed;
-    z-index: 1000;
-  }
-
-  .toolbar img{
-    margin-top: -1.838165283203125px;
-    margin-left: -75px;
-    width: 290px;
-    height: 58px;
-
-  }
-
-
-
-  footer{
-    width: 100%;
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-
-  .pabajo{
-  bottom: 0;
-    position: absolute;
-  }
-  footer img{
-    width: 100%;
-  }
-  </style>
-  <!--background-->
-
 
   <!-- Toolbar -->
   <div class="toolbar" role="banner">
     <div class="container">
+      <a  routerLink="gracias" routerLinkActive="router-link-active" href="">
     <img
       width="40"
       alt="Angular Logo"
       src="../assets/logo.svg"
     />
+    </a>
     </div>
   </div>
 
 
   <router-outlet></router-outlet>
 
-
+<!-- Footer -->
       <footer id="footer">
         <img src="../assets/footer.svg" alt="">
       </footer>

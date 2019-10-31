@@ -1,6 +1,26 @@
 #gracias{
-	padding-top: 58px;
-	background: black;
+	padding-top: 350px;
+	background-color: #2A577A;
+	background-image: url('../../assets/background_thanks.svg'), url('../../assets/sonria.png');
+ 	background-repeat: no-repeat;
 	height: 100vh;
+	 background-position: 75% 10%, 75% 100px;
+	 background-size: auto, 800px;
+	overflow: hidden;
 }
 
+.button{
+	  width: 205px;
+	  margin-top: 100px;
+}
+
+.button img{
+	right: 10px;
+}
+h2{
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+h3{
+	font-size: 34px;
+}
